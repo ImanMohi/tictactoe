@@ -2,7 +2,6 @@
     padding: 3rem;
     text-align: center;
     margin: 1.5rem;
-    border: 2px solid gray;
 }
 
 .row {
@@ -20,26 +19,26 @@ div.row > div {
     clear: right;
     width: 100px;
     height: 100px;
-    background-color: lightpink;
+    background-color: lightgrey;
 }
 
-.square:hover{
+.square:hover {
     cursor: pointer;
 }
 
 .top{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .bottom{
-    border-top: 1px solid black;
+    border-top: 2px solid black;
 }
 
 .left{
-    border-right: 1px solid black;
+    border-right: 2px solid black;
 }
 
 .right{
-    border-left: 1px solid black;
+    border-left: 2px solid black;
 }
 
