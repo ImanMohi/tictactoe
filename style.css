@@ -3,16 +3,18 @@
     text-align: center;
     margin: 1.5rem;
     border: 2px solid gray;
+    background-image: url(lighthouse.jfif);
 }
 
 .row {
     margin: 0 auto;
-    width: 304px;
+    width: 310px;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     text-align: center;
+    color: peachpuff;
 }
 
 div.row > div {
@@ -29,17 +31,26 @@ div.row > div {
 
 .top{
     border-bottom: 2px solid black;
+    border-top: 3px solid paleturquoise;
+    border-top-style: groove;
 }
 
 .bottom{
     border-top: 2px solid black;
+    border-bottom: 3px solid paleturquoise;
+    border-bottom-style: groove;
 }
 
 .left{
     border-right: 2px solid black;
+    border-left: 3px solid paleturquoise;
+    border-left-style: groove;
+    
 }
 
 .right{
     border-left: 2px solid black;
+    border-right: 3px solid paleturquoise;
+    border-right-style: groove;
 }
 
