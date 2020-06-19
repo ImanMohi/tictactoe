@@ -13,7 +13,7 @@
 
 .row {
     margin: 0 auto;
-    width: 312px;
+    width: 350px;
 }
 
 h1 {
@@ -28,6 +28,9 @@ div.row > div {
     width: 100px;
     height: 100px;
     background-color: lightpink;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 60px;
 }
 
 .square:hover{
