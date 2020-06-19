@@ -4,11 +4,10 @@
     margin: 1.5rem;
     border: 2px solid gray;
     background-image: url(lighthouse.jfif);
-    height: 33em;
+    height: 35em;
     width: 35em;
     background-size: cover;
     position: relative;
-    left: 24em;
 }
 
 .row {
@@ -84,4 +83,20 @@ div.row > div {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+#refreshbtn {
+    padding: 1em;
+    position: relative;
+    bottom: -31em;
+    left: -17em;
+    background-image: url(lights.jfif);
+    color: turquoise;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#refreshbtn:hover{
+    cursor: pointer;
 }
