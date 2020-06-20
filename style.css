@@ -2,12 +2,18 @@
     padding: 3rem;
     text-align: center;
     margin: 1.5rem;
-    border: 2px solid gray;
-    background-image: url(lighthouse.jfif);
-    height: 35em;
-    width: 35em;
     background-size: cover;
     position: relative;
+}
+
+.container{
+    background-image: url(lighthouse.jfif);
+    border: 2px solid gray;
+    height: 40em;
+    width: 40em;
+    margin: 28em;
+    position: relative;
+    bottom: 0em;
 }
 
 .row {
@@ -86,15 +92,15 @@ div.row > div {
 }
 
 #refreshbtn {
-    padding: 1em;
+    padding: 0.75em;
     position: relative;
-    bottom: -31em;
-    left: -17em;
-    background-image: url(lights.jfif);
-    color: turquoise;
-    border: 2px solid darkslategray;
-    border-radius: 10px;
+    left: 9.5em;
+    bottom: -2em;
+    background-color: cyan;
+    color: rgb(17, 19, 18);
     font-weight: bolder;
+    border: 2px solid darksalmon;
+    border-radius: 10px;
 }
 
 #refreshbtn:hover{

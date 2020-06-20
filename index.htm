@@ -6,14 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div id="board">
-        <div>
-            <h2 id=turnMessage>
-    
-            </h2>
+<body onload="startGame();">
+    <div class="container">
+        <div class="row">
+            <h1>Tic Tac Toe</h1>
         </div>
-        <h1>Tic Tac Toe</h1>
+        <div class="row">
+        <h2 id=turnMessage>
+
+        </h2>
+        </div>
+    
+    <div id="board">
         <div class="row">
             <div class="top left square"></div>
             <div class="top middle square"></div>
@@ -29,8 +33,11 @@
             <div class="bottom middle square"></div>
             <div class="bottom right square"></div>
         </div>
+    </div>
+    <div class="row">
         <button id="refreshbtn" onclick="startGame()" > Play Again </button>
     </div>
-    <script src="app.js"></script>
+    </div>
+    <script src="app.js" type="application/javascript"></script>
 </body>
 </html>
