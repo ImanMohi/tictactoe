@@ -106,3 +106,11 @@ div.row > div {
 #refreshbtn:hover{
     cursor: pointer;
 }
+#result{
+    padding: 0.75em;
+    position: relative;
+    left: 9em;
+    bottom: -2em;
+    font-size: large;
+    color: white;
+}
